@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F3E5D7;
+    font-size: 0.8rem;
+    color: #5F564D;
+
+}
+h1,
+h2,
+h3,
+p{
+    padding: 0;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3 {
+    margin: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
+.omulet{
+    width: 100%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+h2{
+    color: #854632;
+    font-size: 2rem;
+}
+h3{
+    color: #7A284E;
+    font-size: 1.5rem;
+}
+ul{
+    padding-left: 2rem;
+}
+.prep-time{
+    background-color: #FFF7FB;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+ul>li{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+.item{
+    margin-bottom: 0.1rem;
+}
+.item p{
+    display: inline-block;
+}
+.item .num{
+    width: 5%;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.item .desc{
+    width: 94%;
+    text-align: left;
+}
+table{
+    margin-top: 15px;
+
+}
+tr,
+td{
+    border-bottom: 1px solid #ddd;
+    width: 40rem;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+.cal{
+    color: #864623;
+    font-weight: bold;
+}
